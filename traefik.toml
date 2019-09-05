@@ -7,7 +7,7 @@
 # Optional
 # Default: false
 #
- debug = true
+# debug = true
 
 # Log level
 #
@@ -170,4 +170,4 @@
 # Optional
 # Default: true
 #
-# exposedByDefault = true
+ exposedByDefault = false
