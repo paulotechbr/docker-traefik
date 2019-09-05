@@ -39,8 +39,9 @@
      address=":8080"
      [entryPoints.traefik.auth]
        [entryPoints.traefik.auth.basic]
-         users = ["pjpjunior:$apr1$rncfSxdS$Mte1nGf0QZLZPyLzFNaJs/"] 
-# password generator htpasswd
+         users = ["admin:$apr1$HtLaQhFO$rdJLxGGvXAG6PJeN17eJh."]
+
+# password generator htpasswd Default: admin:admin
 
   [entryPoints.http]
     address = ":80"
